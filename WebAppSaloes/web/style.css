@@ -1,0 +1,52 @@
+/**
+ *
+ * @author Pablo Lima Pereira                 RGM: 11231100409
+ *         Wendreu Bernardo dos Santos        RGM: 11231102590
+ *         David da Silva Daniel              RGM: 11231103244 
+ *         Guilherme Matos Andrade da Silva   RGM: 11231102539
+ */
+/* Estilo para a lista de salões */
+#lista-saloes li {
+    display: inline-block;
+    width: 30%;  
+    margin: 10px; 
+    padding: 10px;
+    box-sizing: border-box; 
+    text-align: center; 
+    background-color: #f0f0f0; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+#lista-saloes li img {
+    width: 100%;      
+    height: auto;     
+    max-width: 250px; 
+    object-fit: cover; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+#lista-saloes h3 {
+    font-size: 1.2em; 
+    margin-top: 10px;  
+}
+
+#lista-saloes p {
+    font-size: 0.9em;  
+    color: #555;       
+    margin: 5px 0;     
+}
+
+#lista-saloes button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#lista-saloes button:hover {
+    background-color: #218838;  
+}
